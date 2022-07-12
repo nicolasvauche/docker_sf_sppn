@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TodolistController!{% endblock %}
+
+{% block body %}
+<section>
+    <h1>Mes Todolists</h1>
+
+    <p>
+        <a href="{{ path ('app_todolist_add') }}">Nouvelle Todolist</a>
+    </p>
+</section>
+{% endblock %}
